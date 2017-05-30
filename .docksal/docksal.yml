@@ -1,0 +1,12 @@
+# Basic LAMP stack
+
+version: "2.1"
+
+services:
+  data:
+    build: ${PROJECT_ROOT}
+    volumes:
+      - project_root:/var/www
+
+volumes:
+  project_root:

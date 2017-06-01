@@ -1,0 +1,14 @@
+{
+    "name": "deciphered/docksal-demo",
+    "description": "Demonstration Docksal repository.",
+    "authors": [
+        {
+            "name": "Stuart Clark",
+            "email": "stu@rtclark.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "drush/drush": "9.x"
+    }
+}
